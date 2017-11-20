@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page component should render as expected 1`] = `
+<div
+  className="landing-page"
+>
+  <Header
+    as="h1"
+    data-bdd-selector="landingHeader"
+  >
+    React Webpack Sample Application
+  </Header>
+  <Segment>
+    <Header
+      as="h2"
+      data-bdd-selector="subHeader"
+    >
+      Sample UI Components
+    </Header>
+    <Button
+      as="button"
+      data-bdd-selector="primaryButton"
+      primary={true}
+    >
+      Primary Button
+    </Button>
+    <Button
+      as="button"
+      data-bdd-selector="secondaryButton"
+      secondary={true}
+    >
+      Secondary Button
+    </Button>
+  </Segment>
+  <Header
+    as="h2"
+    data-bdd-selector="routeHeader"
+  >
+    Read me and Features
+  </Header>
+</div>
+`;
